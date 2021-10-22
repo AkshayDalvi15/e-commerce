@@ -1,0 +1,5 @@
+product:
+    product-id: 1234_56
+    product_name: "Iphone 13"
+    product_price: 79999
+    product_color: "white"
