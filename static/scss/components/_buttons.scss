@@ -1,0 +1,26 @@
+button {
+  cursor: pointer;
+}
+nav {
+  & button {
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  & .import,
+  & .filter {
+    margin: 0 6px;
+    background: white;
+  }
+  & .download-report {
+    margin: 0 6px;
+    border: 1px solid black;
+
+    color: white;
+    background-color: #625bc5;
+  }
+  & i {
+    padding: 0 5px;
+    margin-right: 5px;
+  }
+}

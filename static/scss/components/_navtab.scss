@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 20px 20px;
+  & .heading {
+    color: #1c124e;
+    & span {
+      padding: 10px 0;
+      color: #9399b1;
+    }
+  }
+}
